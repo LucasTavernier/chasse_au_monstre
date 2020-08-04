@@ -1,0 +1,50 @@
+.ButtonNormal {
+	-fx-background-color: #707070 + linear-gradient(#fcfcfc, #f3f3f3) + linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #cfcfcf 100%);
+	-fx-background-insets: 0,1,2;
+	-fx-background-radius: 3,2,1;
+	-fx-padding: 3 30 3 30;
+	-fx-text-fill: black;
+	-fx-font-size: 14px;
+}
+
+.ButtonHoverOn {
+	-fx-background-color: #3c7fb1 + linear-gradient(#fafdfe, #e8f5fc) + linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+	-fx-background-insets: 0,1,2;
+	-fx-background-radius: 3,2,1;
+	-fx-padding: 3 30 3 30;
+	-fx-text-fill: black;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+
+.slider .axis{
+    -fx-tick-label-fill: rgb(255,255,255);
+    -fx-stroke: white;
+}
+
+.imageBorder {
+    -fx-border-color: #f2f2f2;
+    -fx-border-width: 2;
+    -fx-background-color: #a2a2a2;
+}
+
+.imageBorderClicked {
+    -fx-border-color: #f2f2f2;
+    -fx-border-width: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(254,229,0,0.8), 30, 0, 0, 0);
+    -fx-background-color: #a2a2a2;
+}
+
+.imageGridBorder {
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,1), 20, 0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+

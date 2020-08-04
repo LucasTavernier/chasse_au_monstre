@@ -1,0 +1,7 @@
+git pull => Récupère les fichiers de git
+
+1/ git add <fichier> => Ajoute un fichier sur git
+2/ git commit -m "<Commentaire>" => Ajoute un commentaire au fichier ajouté
+3/ git push => Envoie les fichiers ajoutés sur le git
+
+git rm -r <fichier> => Supprime un fichier sur git
